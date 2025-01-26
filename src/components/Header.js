@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Header() {
   return (
-    <header className="bg-red-600 text-white p-4">
+    <header className="bg-red-500 text-white p-4">
       <nav className="container mx-auto flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold">
           小红书文案生成器
